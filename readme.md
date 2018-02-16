@@ -9,6 +9,7 @@ Honestly if you don't know how to add a script like this, you will most likely n
 
 ## Features:
 Function **GetMinimapAnchor()** which returns an object with the following entries:
+
 Key | Description
 --- | ---
 **x** / **left_x** | The X position of the left side of the minimap.
@@ -18,6 +19,7 @@ Key | Description
 **xunit, yunit** | Base units that should be the same for every screen. Use these for pixel measurement.
 **right_x** | The X position of the right side of the minimap. *(Shortcut for x + width)*
 **bottom_y** | The Y position of the bottom side of the minimap. *(Shortcut for y + height)*
+
 *Note that all of the values returned are in a range of 0.0 to 1.0*
 
 ## Example use:
