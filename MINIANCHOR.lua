@@ -20,9 +20,9 @@ function GetMinimapAnchor()
     local yscale = 1.0 / res_y
     local Minimap = {}
 
-	SetScriptGfxAlign(string.byte('L'), string.byte('B'))
-	local gfx_x, gfx_y = GetScriptGfxPosition(0, 0)
-	ResetScriptGfxAlign()
+    SetScriptGfxAlign(string.byte('L'), string.byte('B'))
+    local gfx_x, gfx_y = GetScriptGfxPosition(0, 0)
+    ResetScriptGfxAlign()
 
     Minimap.width = xscale * (res_x / (4 * aspect_ratio))
     Minimap.height = yscale * (res_y / 5.674)
